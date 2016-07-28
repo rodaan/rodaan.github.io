@@ -27,13 +27,13 @@ KA-VR
 
 
 
-[OutHype](http://bit.ly/29YmsUr)
+OutHype
 -------
 A mobile application that was built in a day to find new popular trending artists at Music Festivals
 
 ![OutHype Preview](https://s3.amazonaws.com/poly-screenshots.angel.co/Project/3d/330475/1918a69dd3850b210be11624b1051de1-original.png)
 
-[DEMO LINK](http://bit.ly/29YmsUr)
+[DEMO LINK - http://bit.ly/29YmsUr](http://bit.ly/29YmsUr)
 
 
 
@@ -48,7 +48,7 @@ Learn With Me
 
 
 
-[Roam](http://bit.ly/29PWJlo)
+Roam
 -----
 Social networking mobile app which connects people together
 
@@ -57,7 +57,7 @@ Social networking mobile app which connects people together
 ![Roam Preview](http://i64.tinypic.com/2r5eosg.png)
 *Note: The final product looks different from the mockup image above. See demo link for updated product!
 
-[DEMO LINK](http://bit.ly/29PWJlo)
+[DEMO LINK - http://bit.ly/29PWJlo](http://bit.ly/29PWJlo)
 
 
 
