@@ -22,7 +22,7 @@ KA-VR
 
 
 
-OutHype
+[OutHype](http://bit.ly/29YmsUr)
 -------
 A mobile application that was built in a day to find new popular trending artists at Music Festivals
 
@@ -43,7 +43,7 @@ Learn With Me
 
 
 
-Roam
+[Roam](http://bit.ly/29PWJlo)
 -----
 Social networking mobile app which connects people together
 
