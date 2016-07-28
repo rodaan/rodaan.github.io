@@ -6,6 +6,11 @@ permalink: /portfolio/
 
 
 # Things I've been working on Recently: #
+- [KA-VR](#ka-vr)
+- [OutHype](#outhype)
+- [Learn With Me](#learn-with-me)
+- [Roam](#roam)
+- [Mass Edit](#mass-edit)
 
 
 
