@@ -4,11 +4,14 @@ title: Portfolio
 permalink: /portfolio/
 ---
 
-# Things I've been working on: #
+
+# Things I've been working on Recently: #
+
+
 
 KA-VR
 -----
-Chrome Extension Virtual Assistant
+**KA-VR** is a virtual assistant that uses natural language processing to listen to a user's voice to execute tasks. Machine learning algorithms are implemented in such a way that **KA-VR** progressively learns a user's choice of words, such as actions, verbs, and context.
 
 ![KA-VR](http://i67.tinypic.com/m9riao.png)
 
@@ -16,25 +19,33 @@ Chrome Extension Virtual Assistant
 
 *Note: Working on deployed link
 
+
+
+
 OutHype
 -------
-Mobile application built to find new popular trending artists at Music Festivals
+A mobile application that was built in a day to find new popular trending artists at Music Festivals
 
 ![OutHype Preview](https://s3.amazonaws.com/poly-screenshots.angel.co/Project/3d/330475/1918a69dd3850b210be11624b1051de1-original.png)
 
 [DEMO LINK](http://bit.ly/29YmsUr)
 
+
+
+
 Learn With Me
 -------------
-Education app popularizing peer-to-peer (P2P) learning
+**Learn With Me** is an interactive application that allows users to watch screencast lessons, chat directly with the lecturer, and whiteboard their personal notes, creating the full classroom experience remotely.
 
 ![Landing Page](http://i67.tinypic.com/10sde1s.png)
 ![Dashboard](http://i68.tinypic.com/1zvrc5t.png)
 ![Classroom](http://i64.tinypic.com/2yvqavk.png)
 
+
+
 Roam
 -----
-Social networking app which connects users with people
+Social networking mobile app which connects people together
 
 ![App Icon](http://i68.tinypic.com/ojkxhj.png)
 
@@ -42,6 +53,7 @@ Social networking app which connects users with people
 *Note: The final product looks different from the mockup image above. See demo link for updated product!
 
 [DEMO LINK](http://bit.ly/29PWJlo)
+
 
 
 Mass Edit

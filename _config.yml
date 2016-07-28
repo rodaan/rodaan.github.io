@@ -6,10 +6,10 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Rodaan's Blog
+title: Rodaan Peralta-Rabang
 email: rodaan.rabang@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Constantly learning something new everyday! (Or at least trying to!)
+  Learning something new everyday! (Or at least trying to!)
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://rodaan.github.io" # the base hostname & protocol for your site
 twitter_username: rodaanpr
