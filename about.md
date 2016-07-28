@@ -1,15 +1,11 @@
 ---
 layout: page
-title: About
+title: About Rodaan
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+I am a full-stack software engineer with a strong background in JavaScript. I like to explore the sources of problems and determining the appropriate solution for a given problem by running through potential side effects and limitations before writing a line of code. I thrive in environments where communication is open and autonomy is expected. I enjoy the whole scope of engineering from choosing what technologies are best for a given task and optimizing an algorithm to developing new features for a product.
 
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jglovier" %} /
-[jekyll-new](https://github.com/jglovier/jekyll-new)
+I have extensive experiences in data analytics, statistical analysis, social media technologies, market research, databases, and application development. I am also interested in machine learning, natural language processing, and cybersecurity.
 
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
+I'm currently looking for new opportunities!
