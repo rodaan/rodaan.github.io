@@ -28,6 +28,7 @@ KA-VR
 - Remove need to continually ask for permissions
 - Save ToDo List info on Local Storage
 
+Try it out! Start with using the "help" command!
 [DEMO LINK - http://bit.ly/2aE79oh](http://bit.ly/2aE79oh)
 
 
