@@ -22,8 +22,13 @@ KA-VR
 
 ![LOGO](http://i64.tinypic.com/63y7uw.png)
 
-*Note: Working on deployed link
+*Note: A few bugs that we're working on fixing but its up!
+- Weather Widget not showing
+- Remove Sign Out button
+- Remove need to continually ask for permissions
+- Save ToDo List info on Local Storage
 
+[DEMO LINK - http://bit.ly/2aE79oh](http://bit.ly/2aE79oh)
 
 
 
