@@ -18,28 +18,28 @@ So after trying to deploy the webapp, I discovered after sshing into my EC2 inst
 
 So to save future Rodaan from wasting time again, I decided to make this post to highlight the steps to installing node on EC2:  
 
-1. Install any updates to the EC2 instance:  
+* Install any updates to the EC2 instance:  
 {% highlight bash %}
 sudo yum update  
 {% endhighlight %}
 
-2. Install necessary tools to build node to the EC2 instance:  
+* Install necessary tools to build node to the EC2 instance:  
 {% highlight bash %}
 sudo yum install gcc-c++ make  
 sudo yum install openssl-devel  
 {% endhighlight %}
 
-3. Install git which you need to get the updated node binaries:  
+* Install git which you need to get the updated node binaries:  
 {% highlight bash %}
 sudo yum install git
 {% endhighlight %}
 
-4. Clone git repo with node binaries:  
+* Clone git repo with node binaries:  
 {% highlight bash %}
 git clone https://github.com/nodejs/node.git  
 {% endhighlight %}
 
-5. Decide which version of Node you want to install and "make" node (this may take 30 minutes or more):  
+* Decide which version of Node you want to install and "make" node (this may take 30 minutes or more):  
 {% highlight bash %}
 cd node  
 git checkout v4.6.1  
@@ -48,13 +48,13 @@ make
 sudo make install
 {% endhighlight %}
 
-6. Node that node is installed, add it to the superuser's path so you can actually use it to install more packages:  
+* Node that node is installed, add it to the superuser's path so you can actually use it to install more packages:  
 {% highlight bash %}
 sudo su  
 vi /etc/sudoers  
 {% endhighlight %}
 
-7. On the VI editor go to the line that says (if you are new to VI, use the down keyboard arrow to do so):  
+* On the VI editor go to the line that says (if you are new to VI, use the down keyboard arrow to do so):  
 {% highlight text %}
 Defaults     secure_path = /sbin:/bin:/usr/sbin:/usr/bin  
 {% endhighlight %}
@@ -71,12 +71,12 @@ You can now escape su mode (superuser mode) by typing:
 exit
 {% endhighlight %}
 
-8. Now download the npm binaries:  
+* Now download the npm binaries:  
 {% highlight bash %}
 git clone https://github.com/npm/npm.git  
 {% endhighlight %}
 
-9. Finally install npm:
+* Finally install npm:
 {% highlight bash %}
 cd npm  
 sudo make install  
