@@ -2,7 +2,7 @@
 layout: post
 title:  "Installing NodeJS and NPM on AWS"
 date:   2016-10-24 00:11:43 -0700
-categories: hackathons, ec2, aws
+categories: hackathons ec2 aws
 ---
 This past weekend, I entered the Small Business Hackathon sponsored by Intuit with some friends. It was pretty fun. Food was great and there was a lot of cool swag.  
 
