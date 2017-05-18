@@ -18,69 +18,6 @@ So after trying to deploy the webapp, I discovered after sshing into my EC2 inst
 
 So to save future Rodaan from wasting time again, I decided to make this post to highlight the steps to installing node on EC2:  
 
-* Install any updates to the EC2 instance:  
-{% highlight bash %}
-sudo yum update  
-{% endhighlight %}
-
-* Install necessary tools to build node to the EC2 instance:  
-{% highlight bash %}
-sudo yum install gcc-c++ make  
-sudo yum install openssl-devel  
-{% endhighlight %}
-
-* Install git which you need to get the updated node binaries:  
-{% highlight bash %}
-sudo yum install git
-{% endhighlight %}
-
-* Clone git repo with node binaries:  
-{% highlight bash %}
-git clone https://github.com/nodejs/node.git  
-{% endhighlight %}
-
-* Decide which version of Node you want to install and "make" node (this may take 30 minutes or more):  
-{% highlight bash %}
-cd node  
-git checkout v4.6.1  
-./configure
-make
-sudo make install
-{% endhighlight %}
-
-* Node that node is installed, add it to the superuser's path so you can actually use it to install more packages:  
-{% highlight bash %}
-sudo su  
-vi /etc/sudoers  
-{% endhighlight %}
-
-* On the VI editor go to the line that says (if you are new to VI, use the down keyboard arrow to do so):  
-{% highlight text %}
-Defaults     secure_path = /sbin:/bin:/usr/sbin:/usr/bin  
-{% endhighlight %}
-and add this to the end of that line (use the right keyboard arrow to get to the end of the line):  
-{% highlight text %}
-:/usr/local/bin  
-{% endhighlight %}
-Now you can save your changes by hitting ESC and typing:  
-{% highlight %}
-:wq!
-{% endhighlight %}
-You can now escape su mode (superuser mode) by typing:  
-{% highlight text %}
-exit
-{% endhighlight %}
-
-* Now download the npm binaries:  
-{% highlight bash %}
-git clone https://github.com/npm/npm.git  
-{% endhighlight %}
-
-* Finally install npm:
-{% highlight bash %}
-cd npm  
-sudo make install  
-{% endhighlight %}
 
 And there you have it! You've successfully installed node and npm! I hope this helps! If you have any questions feel free to email me! My next post will likely be one about permissions on Linux machines since I find myself dealing with them so often so keep a lookout for that!  
 
