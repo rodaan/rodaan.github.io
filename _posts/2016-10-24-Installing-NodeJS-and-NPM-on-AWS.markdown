@@ -18,6 +18,12 @@ So after trying to deploy the webapp, I discovered after sshing into my EC2 inst
 
 So to save future Rodaan from wasting time again, I decided to make this post to highlight the steps to installing node on EC2:  
 
+* Install any updates to the EC2 instance:  
+{% highlight bash %}
+sudo yum update  
+{% endhighlight %}
+
+
 
 And there you have it! You've successfully installed node and npm! I hope this helps! If you have any questions feel free to email me! My next post will likely be one about permissions on Linux machines since I find myself dealing with them so often so keep a lookout for that!  
 
